@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset='UTF-8' />
+  <style>
+    h1 {
+      font-size: 40px;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-size: 25px;
+    }
+    section {
+      text-align: center;
+      padding: 50px 0;
+      position: relative;
+    }
+    .container {
+      width: 1000px;
+      margin: auto;
+    }
+    ul {
+      list-style: none;
+    }
+    pre {
+      text-align: left;
+      width: 1000px;
+      margin: auto;
+    }
+    .section2 {
+      background-color: #E4E9B1;
+    }
+    .section3 {
+      background-color: #B1795A;
+      color: #FFF;
+    }
+    .section4 {
+      background-color: #161A1C;
+      color: #B69C8A;
+    }
+    .gray {
+      text-align: left;
+      font-size: 18px;
+      position: absolute;
+      margin: 0;
+      top: 0;
+    }
+    .gray span{
+      background-color: black;
+      color: #EEE;
+      display: inline-block;
+      padding: 0 3px;
+    }
+  </style>
+</head>
+<body>
+  <section class='section1'>
+    <div class='container'>
+      <h1>区块儿化描述我们的代码</h1>
+      <p>为了让我们的代买更易读，易于维护，我们应该使用一种良好的组织方法。</p>
+    </div>
+  </section>
+  <section class='section2'>
+    <div class='container'>
+      <p class='gray'><span>// 区块化</span></p>
+      <p>以AngularJS为例，在controller中我们把代码分为了3个区块：</p>
+      <ul>
+        <li>// functions</li>
+        <li>// initialize</li>
+        <li>// events</li>
+      </ul>
+      <p>functions区域是函数定义阶段，接下来是初始化阶段和交互事件注册阶段</p>
+    </div>
+  </section>
+  <section class='section3'>
+    <div class='container'>
+      <p class='gray'><span>// 描述他们</span></p>
+      <p>为了让我们的代码更易读和维护，我们让代码具有更多的描述内容。下面以check和area来具个例子。</p>
+      <p>在这个例子中，我们用check来定义表单验证，用area组织区域代码。当然你可以使用更多的方法来丰富扩展你的代码，但请记住“区域性”。每个区域都建议具有name和description属性，通过name可以得到区域。</p>
+    </div>
+  </section>
+  <section class='section4'>
+    <h4>看起来就是这样的: </h4>
+    <img src='area.jpg' />
+  </section>
+</body>
+</html>
